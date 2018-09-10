@@ -15,6 +15,7 @@ mitkFunctionAddExternalProject(NAME ZLIB        OFF ADVANCED NO_PACKAGE NO_CACHE
 
 mitkFunctionAddExternalProject(NAME HDF5        ON ADVANCED)
 mitkFunctionAddExternalProject(NAME BetData     OFF ADVANCED)
+mitkFunctionAddExternalProject(NAME OpenMP      ON)
 
 # -----------------------------------------
 # The following external projects must be
